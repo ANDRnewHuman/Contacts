@@ -45,6 +45,7 @@ img {
 
 body {
     font-family: Montserrat, sans-serif;
+    background-image: url(../img/Frame\ 403.jpg);
 }
 
 /* ////////////////////////////////// */
@@ -706,7 +707,9 @@ body {
 
 @media screen and (min-width: 1200px) {
     .contacts-section {
-        background-color: #84A178;
+        background: linear-gradient(180deg,
+                rgba(0, 0, 0, 0) 20%,
+                rgba(132, 161, 120, 1) 20%);
     }
 
     .contacts-conteiner {
